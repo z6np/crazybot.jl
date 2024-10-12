@@ -2,9 +2,9 @@
 
 using Sockets
 
-const SERVER = "irc.libera.chat"
+const SERVER = "irc.yourserver.here" # Edit this!
 const PORT = 6667
-const CHANNEL = "##?"
+const CHANNEL = "#channelname" # Edit this too!
 const NICKNAME = "crazybot"
 
 function connect_to_server()
